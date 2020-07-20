@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pyutils = {file = "https://github.com/vphpersson/pyutils/tarball/master"}
+pytesseract = "*"
+opencv-python = "*"
+numpy = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+initmain = "python3 main.py"
